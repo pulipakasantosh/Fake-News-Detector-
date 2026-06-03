@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+src/__pycache__/
+
+# Large model files
+models/distilbert_finetuned/
+models/*.pt
+models/*.pkl
+models/*.safetensors
+models/*.bin
+models/best_pipeline.pkl
